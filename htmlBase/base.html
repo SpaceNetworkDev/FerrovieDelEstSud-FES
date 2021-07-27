@@ -561,6 +561,13 @@
 
 </body>
 <script>
+    function stripHtml(html)
+{
+   let tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
+
     var qs = (function (a) {
         if (a == "") return {};
         var b = {};
@@ -579,7 +586,7 @@
             var dArr=qs[key].split("-");
             qs[key]=dArr[2]+"/"+dArr[1]+"/"+dArr[0];
         }
-        q = q.replaceAll(key, qs[key]);
+        q = q.replaceAll(key, stripHtml(qs[key]));
     });
     $("#main").html(q);
 </script>
