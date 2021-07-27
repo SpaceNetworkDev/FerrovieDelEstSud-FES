@@ -4,6 +4,8 @@
 
 *TreniTaglia* is a fake train ticket generator which allows with some degree of customization to generate [Trenitalia](https://www.trenitalia.com) ticket lookalikes
 
+Now available on [https://matmasit.github.io/treniTaglia/](https://matmasit.github.io/treniTaglia/)
+
 > **DISCLAIMER**
 > 
 > This software shall be used for entertainment purposes only
