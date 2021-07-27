@@ -1,0 +1,587 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <style type="text/css">
+        <!--
+        span.cls_004 {
+            font-family: Arial, serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_004 {
+            font-family: Arial, serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_005 {
+            font-family: Arial, serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_005 {
+            font-family: Arial, serif;
+            font-size: 7.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_006 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_006 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_007 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_007 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_008 {
+            font-family: Arial, serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_008 {
+            font-family: Arial, serif;
+            font-size: 14.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_009 {
+            font-family: Arial, serif;
+            font-size: 18.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_009 {
+            font-family: Arial, serif;
+            font-size: 18.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_010 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(255, 255, 255);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_010 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(255, 255, 255);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_021 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_021 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_022 {
+            font-family: Arial, serif;
+            font-size: 16.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_022 {
+            font-family: Arial, serif;
+            font-size: 16.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_012 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_012 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_011 {
+            font-family: Arial, serif;
+            font-size: 13.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_011 {
+            font-family: Arial, serif;
+            font-size: 13.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_020 {
+            font-family: Arial, serif;
+            font-size: 13.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_020 {
+            font-family: Arial, serif;
+            font-size: 13.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_023 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_023 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_013 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_013 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_002 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_002 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_014 {
+            font-family: Arial, serif;
+            font-size: 16.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_014 {
+            font-family: Arial, serif;
+            font-size: 16.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_015 {
+            font-family: Arial, serif;
+            font-size: 6.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_015 {
+            font-family: Arial, serif;
+            font-size: 6.0px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_017 {
+            font-family: Arial, serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_017 {
+            font-family: Arial, serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_016 {
+            font-family: Arial, serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_016 {
+            font-family: Arial, serif;
+            font-size: 9.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_003 {
+            font-family: Arial, serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_003 {
+            font-family: Arial, serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_018 {
+            font-family: Arial, serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_018 {
+            font-family: Arial, serif;
+            font-size: 8.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_019 {
+            font-family: Arial, serif;
+            font-size: 6.5px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_019 {
+            font-family: Arial, serif;
+            font-size: 6.5px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_024 {
+            font-family: Arial, serif;
+            font-size: 6.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_024 {
+            font-family: Arial, serif;
+            font-size: 6.0px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_026 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_026 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+        -->
+    </style>
+
+</head>
+
+<body>
+    <div style="position:absolute;left:50%;margin-left:-297px;top:0px;width:595px;height:850px;border-style:outset;overflow:hidden"
+        id="main">
+        <div style="position:absolute;left:0px;top:0px">
+            <img src="3e9ea73e-eede-11eb-a980-0cc47a792c0a_id_3e9ea73e-eede-11eb-a980-0cc47a792c0a_files/background1.jpg"
+                width=595 height=850>
+        </div>
+        <div style="position:absolute;left:539.14px;top:27.00px" class="cls_004"><span class="cls_004">Pagina PAGE_N di
+                PAGE_TOT</span></div>
+        <div style="position:absolute;left:442.20px;top:35.57px" class="cls_004"><span class="cls_004">CIV Carrier
+                CIV_CARRIER - Partita Iva: P_IVA</span></div>
+        <div style="position:absolute;left:486.17px;top:43.97px" class="cls_004"><span class="cls_004">Biglietto Singolo
+                - Issuer ISSUER</span></div>
+        <div style="position:absolute;left:463.59px;top:52.37px" class="cls_004"><span class="cls_004">Data Emissione
+                MADE_DATE ore MADE_HOUR</span></div>
+        <div style="position:absolute;left:515.73px;top:60.77px" class="cls_004"><span class="cls_004">Canale: Internet
+                B2C</span></div>
+        <div style="position:absolute;left:494.34px;top:69.17px" class="cls_004"><span class="cls_004">Numero Titolo:
+            </span><span class="cls_005">TICKET_NO</span></div>
+        <div style="position:absolute;left:18.17px;top:92.91px" class="cls_006"><span
+                class="cls_006">VIAGGIO</span><span class="cls_007"> da </span><span
+                class="cls_006">FROM_STATION</span><span class="cls_007"> a </span><span class="cls_006">TO_STATION
+            </span><span class="cls_007">il </span><span class="cls_006">DATE_TRIP_BEGIN </span><span
+                class="cls_007">alle ore </span><span class="cls_006">TIME_TRIP_BEGIN</span></div>
+        <div style="position:absolute;left:452.07px;top:86.95px" class="cls_008"><span class="cls_008">PNR: </span><span
+                class="cls_009">PNR_CODE</span></div>
+        <div style="position:absolute;left:30.17px;top:145.19px" class="cls_010"><span class="cls_010">Stazione di
+                Partenza</span></div>
+        <div style="position:absolute;left:244.94px;top:145.19px" class="cls_007"><span class="cls_007">Stazione di
+                Arrivo</span></div>
+        <div style="position:absolute;left:412.68px;top:140.16px" class="cls_010"><span class="cls_010">Treno:
+            </span><span class="cls_021">TRAIN_TYPE </span><span class="cls_022">TRAIN_NO</span></div>
+        <div style="position:absolute;left:412.68px;top:159.13px" class="cls_010"><span class="cls_010">Servizio:
+            </span><span class="cls_012">2° Standard</span></div>
+        <div style="position:absolute;left:30.17px;top:165.16px" class="cls_011"><span
+                class="cls_011">FROM_STATION</span></div>
+        <div style="position:absolute;left:244.94px;top:165.16px" class="cls_020"><span
+                class="cls_020">TO_STATION</span></div>
+        <div style="position:absolute;left:412.68px;top:175.05px" class="cls_010"><span class="cls_010">Carrozza:
+            </span><span class="cls_012">CARRIAGE_NO</span></div>
+        <div style="position:absolute;left:30.17px;top:181.91px" class="cls_010"><span class="cls_010">Ore </span><span
+                class="cls_023">TIME_TRIP_BEGIN </span><span class="cls_010">-</span></div>
+        <div style="position:absolute;left:84.08px;top:180.91px" class="cls_012"><span
+                class="cls_012">DATE_TRIP_BEGIN</span></div>
+        <div style="position:absolute;left:244.94px;top:180.91px" class="cls_007"><span class="cls_007">Ore </span><span
+                class="cls_006">TIME_TRIP_END </span><span class="cls_007">- </span><span
+                class="cls_013">DATE_TRIP_END</span></div>
+        <div style="position:absolute;left:412.68px;top:191.11px" class="cls_010"><span class="cls_010">Posti:
+            </span><span class="cls_012">SEAT_NO</span></div>
+        <div style="position:absolute;left:441.02px;top:222.54px" class="cls_002"><span class="cls_002">Importo totale*:
+            </span><span class="cls_014">TOTAL_COST</span></div>
+        <div style="position:absolute;left:570.21px;top:222.54px" class="cls_014"><span class="cls_014">€</span></div>
+        <div style="position:absolute;left:397.34px;top:245.59px" class="cls_015"><span class="cls_015">* Il
+                corrispettivo pagato è relativo ad operazioni assoggettate ad I.V.A</span></div>
+        <div style="position:absolute;left:520.42px;top:252.79px" class="cls_015"><span class="cls_015">Non valido ai
+                fini fiscali</span></div>
+        <div style="position:absolute;left:14.17px;top:270.35px" class="cls_017"><span class="cls_017">DETTAGLIO
+                PASSEGGERI</span></div>
+        <div style="position:absolute;left:172.08px;top:296.53px" class="cls_016"><span class="cls_016">Offerta -
+                Servizio</span></div>
+        <div style="position:absolute;left:325.98px;top:296.53px" class="cls_016"><span class="cls_016">Codice CP
+                CartaFreccia Punti</span></div>
+        <div style="position:absolute;left:16.17px;top:301.74px" class="cls_016"><span class="cls_016">Nome Passeggero
+                (Adulto)</span></div>
+        <div style="position:absolute;left:172.08px;top:310.33px" class="cls_017"><span
+                class="cls_017">BASE-STANDARD</span></div>
+        <div style="position:absolute;left:268.20px;top:310.33px" class="cls_017"><span
+                class="cls_017">CARRIAGE_NO</span></div>
+        <div style="position:absolute;left:300.39px;top:310.33px" class="cls_017"><span class="cls_017">SEAT_NO</span>
+        </div>
+        <div style="position:absolute;left:325.98px;top:310.33px" class="cls_017"><span class="cls_017">CP_CODE</span>
+        </div>
+        <div style="position:absolute;left:442.20px;top:310.33px" class="cls_017"><span class="cls_017">--</span></div>
+        <div style="position:absolute;left:16.17px;top:326.54px" class="cls_017"><span
+                class="cls_017">PASSENGER_NAME</span></div>
+        <div style="position:absolute;left:16.17px;top:351.49px" class="cls_003"><span class="cls_003">Dati di contatto
+                comunicati</span></div>
+        <div style="position:absolute;left:185.42px;top:356.37px" class="cls_005"><span class="cls_005">Base:
+            </span><span class="cls_004">Biglietto con cambi prenotazione illimitati e gratuiti prima della partenza,
+                solo verso</span></div>
+        <div style="position:absolute;left:185.42px;top:364.77px" class="cls_004"><span class="cls_004">treni con prezzo
+                Base pari o inferiore. Rimborso con trattenuta.</span></div>
+        <div style="position:absolute;left:14.17px;top:386.53px" class="cls_016"><span class="cls_016">Acquirente:
+            </span><span class="cls_017">PASSENGER_NAME</span></div>
+        <div style="position:absolute;left:441.97px;top:390.93px" class="cls_017"><span class="cls_017">Le porte del
+                treno si chiudono</span></div>
+        <div style="position:absolute;left:14.17px;top:397.33px" class="cls_016"><span class="cls_016">Pagamento:
+            </span><span class="cls_017">Utilizzo carta di credito/debito o carta prepagata</span></div>
+        <div style="position:absolute;left:442.96px;top:401.73px" class="cls_017"><span class="cls_017">1 minuto prima
+                della partenza</span></div>
+        <div style="position:absolute;left:14.67px;top:514.87px" class="cls_003"><span class="cls_003">ARRIVO IN
+                STAZIONE</span></div>
+        <div style="position:absolute;left:14.67px;top:524.47px" class="cls_018"><span class="cls_018">Invitiamo i
+                clienti a recarsi in stazione col necessario anticipo, per sottoporsi ai controlli
+                dell'autocertificazione da parte della Polizia Ferroviaria</span></div>
+        <div style="position:absolute;left:14.17px;top:541.57px" class="cls_003"><span class="cls_003">CONDIZIONI DI
+                TRASPORTO</span></div>
+        <div style="position:absolute;left:14.17px;top:551.31px" class="cls_004"><span class="cls_004">Valgono le
+                condizioni di trasporto del vettore (carrier). Le condizioni che regolano il servizio di trasporto
+                ferroviario con Trenitalia sono disponibili sul sito </span><A
+                HREF="http://www.trenitalia.com/">www.trenitalia.com</A>, presso le</div>
+        <div style="position:absolute;left:14.17px;top:559.71px" class="cls_004"><span class="cls_004">biglietterie
+                Trenitalia e presso le agenzie di viaggio. Per consentire di registrare la tua presenza, comunica il PNR
+                al personale di bordo. La mancata comunicazione del PNR equivale</span></div>
+        <div style="position:absolute;left:14.17px;top:568.11px" class="cls_004"><span class="cls_004">al mancato
+                possesso del biglietto.</span></div>
+        <div style="position:absolute;left:14.17px;top:576.51px" class="cls_004"><span class="cls_004">IMPORTANTE: è
+                necessario esibire su richiesta un documento di riconoscimento valido al personale di bordo.</span>
+        </div>
+        <div style="position:absolute;left:78.79px;top:654.48px" class="cls_019"><span class="cls_019">circa 37
+                Kg</span></div>
+        <div style="position:absolute;left:50.89px;top:801.16px" class="cls_024"><span class="cls_024">Per informazioni,
+                acquisti e modifiche al biglietto: vai su </span><A
+                HREF="http://www.trenitalia.com/">www.trenitalia.com</A>, scarica la nostra App Trenitalia o chiama il
+            Call Center al numero 892021 (numero a pagamento)</div>
+    </div>
+
+
+</body>
+<script>
+    var qs = (function (a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i) {
+            var p = a[i].split('=', 2);
+            if (p.length == 1)
+                b[p[0]] = "";
+            else
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split("&"));
+    var q = $("#main").html();
+    Object.keys(qs).forEach(function (key) {
+        if (key.indexOf("DATE") != -1) {
+            var dArr=qs[key].split("-");
+            qs[key]=dArr[2]+"/"+dArr[1]+"/"+dArr[0];
+        }
+        q = q.replaceAll(key, qs[key]);
+    });
+    $("#main").html(q);
+</script>
+
+</html>
