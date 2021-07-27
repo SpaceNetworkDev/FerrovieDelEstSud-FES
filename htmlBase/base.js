@@ -1,0 +1,28 @@
+    function stripHtml(html)
+{
+   let tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
+
+    var qs = (function (a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i) {
+            var p = a[i].split('=', 2);
+            if (p.length == 1)
+                b[p[0]] = "";
+            else
+                b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split("&"));
+    var q = $("#main").html();
+    Object.keys(qs).forEach(function (key) {
+        if (key.indexOf("DATE") != -1) {
+            var dArr=qs[key].split("-");
+            qs[key]=dArr[2]+"/"+dArr[1]+"/"+dArr[0];
+        }
+        q = q.replaceAll(key, stripHtml(qs[key]));
+    });
+    $("#main").html(q);
