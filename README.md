@@ -1,5 +1,8 @@
 # treniTaglia
 
+![GitHub](https://img.shields.io/github/license/MatMasIt/treniTaglia)
+
+
 > A Fake Trenitalia ticket generator
 
 *TreniTaglia* is a fake train ticket generator which allows with some degree of customization to generate [Trenitalia](https://www.trenitalia.com) ticket lookalikes
