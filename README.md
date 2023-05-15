@@ -9,7 +9,7 @@
 
 Now available on [https://matmasit.github.io/treniTaglia/](https://matmasit.github.io/treniTaglia/)
 
-#Copyright
+# Copyright
 Project carried out at the request of the Italian-Russian-American Community (Torero94-OMSI2), for which all rights are reserved to them and to the respective owners of the git forks, for any bases and / or forks.
 
 Проект выполнен по просьбе Итало-Русско-Американского Сообщества (Torero94-OMSI2), на которое все права сохраняются за ними и соответствующими владельцами форков git, на любые базы и/или форки.
